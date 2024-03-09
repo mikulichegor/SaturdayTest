@@ -1,10 +1,11 @@
+import math
 def menu():
 
     answer = input('Выберите действие:\n+ - сложение\n- - вычитание\n* - умножение\n'
                    '/ - деление\n** - возведение в степень\n% - остаток от деления\n корень - корень\n'
                    'sin - синус\ncos - косинус\ntg - тангенс')
     if answer == '+':
-        pass
+        func()
     elif answer == '-':
         pass
     elif answer == '*':
@@ -23,5 +24,11 @@ def menu():
         pass
     elif answer == 'tg':
         pass
+
+
+def func():
+    o = int(input('Введите первое число: '))
+    u = int(input('Введите второе число: '))
+    print(o + u)
 
 menu()
