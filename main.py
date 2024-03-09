@@ -30,4 +30,5 @@ def minus():
     min = a - b
     print(min)
 
+
 menu()
