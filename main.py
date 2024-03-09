@@ -23,5 +23,9 @@ def menu():
         pass
     elif answer == 'tg':
         pass
-
+def multiplication():
+    num_223 = int(input('Введите число'))
+    num_9 = int(input('Введите число'))
+    answer = num_223 * num_9
+    print(answer)
 menu()
