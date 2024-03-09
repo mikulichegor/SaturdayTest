@@ -12,7 +12,7 @@ def menu():
     elif answer == '/':
         pass
     elif answer == '**':
-        pass
+        power()
     elif answer == '%':
         pass
     elif answer == 'корень':
@@ -23,5 +23,11 @@ def menu():
         pass
     elif answer == 'tg':
         pass
+
+def power():
+    n = int(input("Введите число "))
+    p = int(input("Введите степень для числа "))
+    result = n**p
+    print("Ответ: ", result)
 
 menu()
