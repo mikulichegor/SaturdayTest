@@ -6,7 +6,7 @@ def menu():
     if answer == '+':
         pass
     elif answer == '-':
-        pass
+        minus()
     elif answer == '*':
         pass
     elif answer == '/':
@@ -23,5 +23,11 @@ def menu():
         pass
     elif answer == 'tg':
         pass
+
+def minus():
+    a = int(input('Введите a: '))
+    b = int(input('Введите b: '))
+    min = a - b
+    print(min)
 
 menu()
