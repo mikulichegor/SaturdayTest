@@ -12,7 +12,7 @@ def menu():
     elif answer == '/':
         division()
     elif answer == '**':
-        pass
+        power()
     elif answer == '%':
         pass
     elif answer == 'корень':
@@ -23,9 +23,18 @@ def menu():
         pass
     elif answer == 'tg':
         pass
+
 def division():
     x=input('Введите первое число:')
     y=input('Введите второе число:')
     div=x/y
     print(f'Div:{div}')
+
+
+def power():
+    n = int(input("Введите число "))
+    p = int(input("Введите степень для числа "))
+    result = n**p
+    print("Ответ: ", result)
+
 menu()
