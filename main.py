@@ -8,7 +8,7 @@ def menu():
     elif answer == '-':
         minus()
     elif answer == '*':
-        pass
+        multiplication()
     elif answer == '/':
         division()
     elif answer == '**':
@@ -78,6 +78,9 @@ def power():
     p = int(input("Введите степень для числа "))
     result = n**p
     print("Ответ: ", result)
+
+
+
 
 
 
