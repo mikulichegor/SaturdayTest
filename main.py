@@ -16,13 +16,24 @@ def menu():
     elif answer == '%':
         pass
     elif answer == 'корень':
-        pass
+        good()
     elif answer == 'sin':
         pass
     elif answer == 'cos':
         pass
     elif answer == 'tg':
         pass
+
+
+def good():
+
+    import math
+
+    num = float(input("Введите число: "))
+    sqrt_num = math.sqrt(num)
+
+    print("Корень числа", num, "равен", sqrt_num)
+
 
 
 def minus():
@@ -45,5 +56,6 @@ def power():
     p = int(input("Введите степень для числа "))
     result = n**p
     print("Ответ: ", result)
+
 
 menu()
