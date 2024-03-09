@@ -10,7 +10,7 @@ def menu():
     elif answer == '*':
         pass
     elif answer == '/':
-        pass
+        division()
     elif answer == '**':
         power()
     elif answer == '%':
@@ -23,6 +23,13 @@ def menu():
         pass
     elif answer == 'tg':
         pass
+
+def division():
+    x=input('Введите первое число:')
+    y=input('Введите второе число:')
+    div=x/y
+    print(f'Div:{div}')
+
 
 def power():
     n = int(input("Введите число "))
